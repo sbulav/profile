@@ -75,6 +75,10 @@ set showcmd
 " Option to make clean session with mksession (usefull when changing vimrc)
 set sessionoptions=buffers,curdir,tabpages,winpos,winsize
 
+" Search down into subfolders
+" :find .vim<TAB>
+set path+=**
+
 " Indentation
 """""""""""""""""""""""""""""""""""""""
 " Global configuration
