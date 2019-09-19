@@ -17,6 +17,9 @@
 
 
 set nocompatible
+set termguicolors
+set background=dark
+
 filetype on
 filetype plugin on
 
@@ -39,6 +42,7 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'glench/vim-jinja2-syntax'        " Jinja support for vim
 Plugin 'pearofducks/ansible-vim'
 Plugin 'airblade/vim-gitgutter'          " Git line status
+Plugin 'lifepillar/vim-solarized8'
 
 
 
@@ -351,6 +355,7 @@ if has("patch-8.1.0360")
 endif
 
 " Use sane colorscheme in diff mode
+colorscheme solarized8_high
 if &diff
     colorscheme industry
 endif

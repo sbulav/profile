@@ -26,3 +26,8 @@ Done!
 git clone https://github.com/sbulav/dotfiles && cp dotfiles/.* ~/
 ```
 
+
+## Using 24-bit colors
+
+
+https://habr.com/ru/post/467567/
