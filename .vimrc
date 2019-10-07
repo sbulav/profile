@@ -143,7 +143,6 @@ set wildignore+=*.rpm,*.pkg, " Packages
 set wildignore+=*.o,*.obj,*.exe,*.dll,*.manifest " Compiled Object files
 set wildignore+=*.spl " Compiled speolling world list
 set wildignore+=*.sw? " Vim swap files
-set wildignore+=*.yaml " Yaml
 set wildignore+=*.DS_Store " OSX SHIT
 set wildignore+=*.luac " Lua byte code
 set wildignore+=migrations " Django migrations
